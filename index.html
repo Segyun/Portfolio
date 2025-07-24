@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>정희균 - iOS Developer</title>
+    <title>Huigyun Jeong - iOS Developer</title>
     <style>
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            box-sizing: border;
         }
 
         body {
@@ -257,8 +257,7 @@
             }
 
             .project-image {
-                width: 100px;
-                height: 100px;
+                max-width: 100px;
                 margin: 0 auto 1rem;
             }
 
@@ -274,7 +273,7 @@
     <header>
         <div class="container">
             <div class="profile-img">👨‍💻</div>
-            <h1>정희균</h1>
+            <h1>Huigyun Jeong</h1>
             <p class="subtitle">iOS Developer</p>
         </div>
     </header>
@@ -282,26 +281,25 @@
     <nav>
         <div class="container">
             <ul>
-                <li><a href="#about">소개</a></li>
-                <li><a href="#skills">기술</a></li>
-                <li><a href="#projects">프로젝트</a></li>
-                <li><a href="#contact">연락처</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="container">
         <section id="about">
-            <h2>소개</h2>
-            <p style="text-align: center; font-size: 1.1rem; max-width: 800px; margin: 0 auto;">
-                안녕하세요! iOS 개발자 정희균입니다.
-                사용자 경험을 우선으로 ‘앱다운 앱’을 만드는 것을 목표로 개발을 학습하고 있습니다.
-                효율적이고 이해하기 쉬운 코드를 작성하기 위해 끊임없이 고민하고 개선해 나가고 있습니다.
-            </p>
+            <h2>About</h2>
+            <p style="text-align: center; font-size: 1.1rem; max-width: 800px; margin: 0 auto;">Hello ! I'm Huigyun
+                Jeong, an iOS developer.
+                I prioritize user experience and aim to create 'app-like apps' as my development goal. I continuously
+                think about and improve my code to make it efficient and easy to understand.</p>
         </section>
 
         <section id="skills">
-            <h2>기술 스택</h2>
+            <h2>Tech Stack</h2>
             <div class="skills-grid">
                 <div class="skill-item">
                     <h3>iOS Development</h3>
@@ -330,14 +328,15 @@
         </section>
 
         <section id="projects">
-            <h2>프로젝트</h2>
+            <h2>Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <img class="project-image" src="./assets/images/Loganly.png" alt="Loganly App Screenshot">
                     <div class="project-content">
                         <h3>Loganly</h3>
-                        <p>AI를 활용한 몰입형 영어회화 및 페르소나 기반 피드백 앱입니다.
-                            SceneKit을 활용한 인터랙티브 모션 그래픽으로 몰입감 있는 학습 경험을 제공합니다.</p>
+                        <p>An immersive English conversation app with AI-powered persona-based feedback.
+                            Provides engaging learning experiences through interactive motion graphics using SceneKit.
+                        </p>
                         <div class="tech-stack">
                             <span class="tech-tag">SwiftUI</span>
                             <span class="tech-tag">SceneKit</span>
@@ -346,7 +345,7 @@
                             <span class="tech-tag">Clean Architecture</span>
                         </div>
                         <p style="font-size: 0.9rem; color: #666; margin-top: 1rem;">
-                            2025.05.08 ~ 2025.06.13
+                            May 8, 2025 ~ June 13, 2025
                         </p>
                     </div>
                 </div>
@@ -354,8 +353,9 @@
                     <img class="project-image" src="./assets/images/DIVER GO.png" alt="DIVER GO App Screenshot">
                     <div class="project-content">
                         <h3>DIVER GO</h3>
-                        <p>AirDrop을 통한 정보 공유와 미션 수행으로 사람들과의 네트워킹을 돕는 소셜 앱입니다.
-                            URL Scheme을 활용한 App-to-App 데이터 전송을 구현했습니다.</p>
+                        <p>A social networking app that helps people connect through AirDrop information sharing and
+                            mission completion.
+                            Implemented App-to-App data transfer using URL Scheme.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">SwiftUI</span>
                             <span class="tech-tag">SwiftData</span>
@@ -364,7 +364,7 @@
                             <span class="tech-tag">MV Pattern</span>
                         </div>
                         <p style="font-size: 0.9rem; color: #666; margin-top: 1rem;">
-                            2025.04.07 ~ 2025.04.25
+                            April 7, 2025 ~ April 25, 2025
                         </p>
                     </div>
                 </div>
@@ -372,8 +372,9 @@
                     <img class="project-image" src="./assets/images/KNUtice.png" alt="KNUtice App Screenshot">
                     <div class="project-content">
                         <h3>KNUtice</h3>
-                        <p>대학교의 여러 공지사항을 한 곳에서 확인할 수 있는 통합 공지사항 앱입니다.
-                            Azure Functions를 활용한 백엔드 시스템을 구축했습니다.</p>
+                        <p>An integrated notice app that allows you to check various university announcements in one
+                            place.
+                            Built a backend system using Azure Functions.</p>
                         <div class="tech-stack">
                             <span class="tech-tag">SwiftUI</span>
                             <span class="tech-tag">Azure Functions</span>
@@ -381,7 +382,7 @@
                             <span class="tech-tag">RESTful API</span>
                         </div>
                         <p style="font-size: 0.9rem; color: #666; margin-top: 1rem;">
-                            2024.09.28 ~ 2024.10.20
+                            September 28, 2024 ~ October 20, 2024
                         </p>
                     </div>
                 </div>
@@ -389,7 +390,7 @@
         </section>
 
         <section id="contact">
-            <h2>연락처</h2>
+            <h2>Contact</h2>
             <div class="contact-info">
                 <div class="contact-item">
                     <a href="mailto:topone03@gmail.com">Email</a>
